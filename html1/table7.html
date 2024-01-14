@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        ::placeholder{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test Form</h1>
+    <form action="">
+    <label>Text Field containing Plaintext</label><br>
+    <input type="text" placeholder="">
+    <label>Your Name</label>
+    <p>Multiple-Line Text Field</p>
+    <textarea rows="3" cols="40" name="text" placeholder="Defalt contents go here."></textarea><br>
+    <label>Checkbox</label>
+    <input type="checkbox">Hungry<br>
+    <br><label>Text Field containing a Numeric Value</label>
+    <input type="text" placeholder="98.6">
+    <label>Blood Temperature (80.0-120.0)</label>
+    <br><label>Single-SELECT</label><br>
+    <select>
+        <option selected>Red</option>
+        <option>Blue</option>
+    </select><br>
+    <label>Multiple-SELECT</label><br>
+    <select multiple>
+        <option>Pistachio</option>
+        <option> Walnut</option>
+        <option>Creme</option>
+    </select><br>
+    <br><label>Exclusive Radio Button Group:Age of Truck in Years
+    <input type="radio">1
+    <input type="radio">2
+    <input type="radio">3
+    <input type="radio">4</label><br>
+    <label>Nonexclusive Checkbox Group:Voting for Zero through Four Candidates</label>
+    <input type="checkbox" class="c1">A
+    <input type="checkbox" class="c1">B
+    <input type="checkbox" class="c1">C
+    <input type="checkbox" class="c1">D<br>
+    <br>
+    <input type="submit" value="SubmitRequest">
+    <input type="submit" value="ResetRequest">
+</form>
+</body>
+</html>

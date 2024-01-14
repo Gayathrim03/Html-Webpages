@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <center>
+        <h1 style="color: red;">Employee Registration Form</h1>
+        <form>
+            <label>
+                <input type="radio" name="salutation" value="mr">
+                Mr.
+            </label>
+            <label>
+                <input type="radio" name="salutation" value="Ms">
+                Mrs.
+            </label>
+            <label>
+                <input type="radio" name="salutation" value="Ms">
+                Ms
+            </label><br>
+            <table>
+                <tr>
+                    <td><label for="username">First Name</label></td>
+                       <td><input type="text" name="name" id="username" placeholder="First Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="username">Last Name</label></td>
+                    <td><input type="text" name="name" id="username" placeholder="Last Name"></td></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Mail Address1</label></td>
+                    <td><input type="text" name="email"id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Mail Address2</label></td>
+                    <td><input type="email" name="email"id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="city">City</label></td>
+                    <td><input type="text" name="city" id="city"></td>
+                </tr>
+                <tr>
+                    <td><label for="state">State</label></td>
+                    <td><select id="state" name="state">
+                        <option>TamilNadu</option>
+                        <option>Gujarat</option>
+                        <option>Haryana</option>
+                        <option>Kerala</option>
+                    </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Zip">Zip</label></td>
+                        <td><input type="text" name="Zip" id="Zip"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="photo">Upload Photo</label></td>
+                        <td> <input type="file" name="photo" id="photo"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-Mail</label></td>
+                        <td><input type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mobile">Mobile</label></td>
+                        <td><input type="tel" name="mobile" id="mobile" pattern="[0-9]{10}" Placeholder="+91"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="language">Languages Known</label></td>
+                        <td><input type="checkbox" name="language" id="language">Gujarati</td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+        </body>
+</html>
